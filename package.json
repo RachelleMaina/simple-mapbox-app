@@ -1,0 +1,54 @@
+{
+  "name": "simple-mapbox-app",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.1.2",
+    "@turf/bbox": "^6.0.1",
+    "bootstrap": "^4.3.1",
+    "jest": "24.8.0",
+    "mapbox-gl": "^1.5.0",
+    "mapbox-gl-draw-circle": "^1.1.1",
+    "mapbox-gl-draw-rectangle-mode": "^1.0.4",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src --fix"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "coveralls": "^3.0.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}

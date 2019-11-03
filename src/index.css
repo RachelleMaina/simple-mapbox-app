@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  background:#000!important;
+}
+.container-fluid { 
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  background-color: #bb7171;
+}
+.navbar-brand{
+  color: #fff !important;
+  font-family: 'Roboto', sans-serif;
+  font-size:22px;
+  font-weight:bold;
+}
+.sidebar{
+  border: 2px solid grey;
+  color:#bb7171;
+  font-weight: bold;
+  position: absolute;
+  top: 130px;
+  left: 60px;
+  width:279px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.trash{
+  border: 2px solid grey;
+  color:#bb7171;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  border-radius: 6px;
+  padding:6px 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.shape-btns-group{
+  position: absolute;
+  top:60px;
+  left: 60px;
+  background-color:rgba(255, 255, 255, 1);
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+
+}
+.shape-btns-group{
+border: 2px solid grey;
+padding:0;
+}
+.shape-btn{
+  display: inline-block;
+  background:transparent !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  color:#bb7171 !important;
+  font-weight: bold !important;
+  border-left:2px solid #E0E0E0 !important;
+}
+.shape-btn:nth-child(1){
+  border-left:none !important;
+}
+
+.shape-btn:hover, .shape-btn:focus{
+  background:#bb7171 !important;
+  color: #fff !important;
+  outline: none !important;
+  border: none !important;
+}
+
+#map{
+  width:99vw;
+  height:91vh;
+}
+
+.footer{
+  padding:10px;
+  color: grey;
+}
