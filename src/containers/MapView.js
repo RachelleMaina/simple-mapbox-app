@@ -70,6 +70,7 @@ export default class MapView extends Component {
    updateArea=() => {
      const { shape } = this.state;
      const geojson = this.draw.getAll();
+  
      let data = {};
      if (geojson.features.length > 0) {
        if (shape === 'rectangle') {
@@ -145,14 +146,12 @@ export default class MapView extends Component {
      else if (shape === 'circle') defaultMode = 'draw_circle';
      else if (shape === 'polygon') defaultMode = 'draw_polygon';
      this.setState({ shape, data: {} });
-
      this.draw.deleteAll();
      this.draw.changeMode(defaultMode);
    }
 
    render() {
      const { data } = this.state;
-     
      return (
        <Map
          fitToBoundingBox={this.fitToBoundingBox}

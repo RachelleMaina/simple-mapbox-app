@@ -10,5 +10,7 @@ export const fun1 = jest.mock('mapbox-gl/dist/mapbox-gl', () => ({
 
   export const fun2 = jest.mock('mapbox-gl-draw-circle', () => ({
     Map: () => ({})
-  }))
+
+  }));
+
 

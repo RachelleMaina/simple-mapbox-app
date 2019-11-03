@@ -2,6 +2,9 @@
   "name": "simple-mapbox-app",
   "version": "0.1.0",
   "private": false,
+  "engines": {
+    "node": "12.11.0"
+  },
   "dependencies": {
     "@mapbox/mapbox-gl-draw": "^1.1.2",
     "@turf/bbox": "^6.0.1",
